@@ -6,4 +6,7 @@ Before executing the script, please following instructions from BigQuery and est
 
 # Upload CSV from link to BigQuery (csv-link-2-bigquery.py)
 Input:
-1 - 
+1 - Link to CSV
+2 - Project ID and Dataset ID in project_id.dataset_id format
+3 - Name the Table ID
+4 - Done!
