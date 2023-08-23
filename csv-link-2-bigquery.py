@@ -7,13 +7,12 @@ from google.cloud import bigquery
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'credentials/hk-re-analytics-cfdf597ce9d5.json'
 
 csv_url = input('URL to CSV: ')
-
 client = bigquery.Client()
 
 project_dataset_id = input('project_id.dataset_id: ')
-table_id = 'Name the table id: ' # TODO: function to name it automatically
+table_id = input('Name the table id: ') # TODO: function to name it automatically
 
-full_table_id = "{}.{}".format(project_dataset_id, table_id)
+full_table_id = f"{project_dataset_id}.{table_id}"
 
 job_config = bigquery.LoadJobConfig(
     source_format=bigquery.SourceFormat.CSV,
