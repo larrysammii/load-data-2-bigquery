@@ -23,5 +23,6 @@ Inputs:
 #### To-dos / Ideas:
 
 - [ ] Excel convestion to CSV then upload
-- [ ] JSON Upload
+- [x] JSON Upload
 - [ ] Check folder for new CSV/JSON file, then upload.
+- [ ] After all the above, modularise(idk if that's a word)
