@@ -20,6 +20,10 @@ Inputs:
 3. Name the Table ID
 4. Done!
 
+#### API json to BigQuery (json-link-2-bigquery.ipynb)
+
+Upload directly from APIs to BigQuery, modify the .ipynb to you liking.
+
 #### To-dos / Ideas:
 
 - [ ] Excel convestion to CSV then upload
